@@ -7,7 +7,7 @@
 }
 header {
   background-color: white;
-  height: 10vh;
+  height: 13vh;
   position: fixed;
   width: 100%;
   z-index: 1001;
@@ -16,6 +16,7 @@ nav {
   /* position: relative; */
   display: flex;
   width: 95%;
+  /* padding-top: 10px ; */
   gap: 30px;
   margin: auto;
   align-items: center;
@@ -49,16 +50,16 @@ nav img {
   border: none;
   background-color: #6f06c0;
 }
-.nigeria{
- background-color: white;
+.nigeria {
+  background-color: white;
 }
-.nigeria img{
+.nigeria img {
   display: none;
 }
-.login-bttn a{
+.login-bttn a {
   color: white;
 }
-.list-icon  {
+.list-icon {
   display: none;
 }
 .country-bttn button {
@@ -101,15 +102,78 @@ button p {
 .dropdown-company {
   position: absolute;
   opacity: 0;
-  top: 70px;
+  top: 90px;
   visibility: hidden;
   width: 160px;
   height: 180px;
   border-radius: 20px;
   padding: 15px 0 0 20px;
   line-height: 30px;
+  backdrop-filter: blur(100px);
   background-color: white;
 }
+
+/* spcial border */
+.company-drop h6 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 70px;
+  color: black;
+}
+.company-drop h6:hover {
+  border-bottom: 5px solid blue;
+  border-radius: 3px;
+  /* z-index: 1; */
+}
+.personal-drop h6 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 70px;
+  color: black;
+}
+.personal-drop h6:hover {
+  border-bottom: 5px solid blue;
+  border-radius: 3px;
+  z-index: 1;
+}
+.business-drop h6 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 70px;
+  color: black;
+}
+.business-drop h6:hover {
+  border-bottom: 5px solid blue;
+  border-radius: 3px;
+}
+.imp-act h6 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 70px;
+  color: black;
+}
+.imp-act h6:hover {
+  border-bottom: 5px solid blue;
+  border-radius: 3px;
+}
+.newsroom-drop h6 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 70px;
+  color: black;
+}
+.newsroom-drop h6:hover {
+  border-bottom: 5px solid blue;
+  border-radius: 3px;
+}
+
+/* special border close */
+
 .dropdown-company p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -126,11 +190,13 @@ button p {
 .dropdown-personal {
   position: absolute;
   opacity: 0;
-  top: 58px;
+  top: 75px;
   visibility: hidden;
   width: 100%;
   left: 0;
   height: 250px;
+  /* inset: 0; */
+  backdrop-filter: blur(5px);
   background-color: white;
   border-top: 2px black;
 }
@@ -195,7 +261,7 @@ button p {
 .dropdown-business {
   position: absolute;
   opacity: 0;
-  top: 58px;
+  top: 75px;
   visibility: hidden;
   width: 100%;
   left: 0;
@@ -243,7 +309,7 @@ button p {
 .dropdown-newsroom {
   position: absolute;
   opacity: 0;
-  top: 60px;
+  top: 90px;
   visibility: hidden;
   width: 192px;
   height: 140px;
@@ -257,24 +323,25 @@ button p {
   visibility: visible;
 }
 
-.dropdown-newsroom p{
+.dropdown-newsroom p {
   font-family: Poppins, sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 50px;
-color: rgb(24, 25, 31);
-padding-left: 15px;
-
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  color: rgb(24, 25, 31);
+  padding-left: 15px;
 }
 .dropdown-bttn {
   position: absolute;
   opacity: 0;
   top: 60px;
+  right: 6%;
   visibility: hidden;
-  width: 200px;
-  height: 340px;
+  width: 250px;
+  height: 450px;
   border-radius: 20px;
-  padding: 15px 0 0 20px;
+  box-shadow: 0px 5px 10px rgb(151, 147, 147);
+  padding: 12px 0 0 10px;
   line-height: 30px;
   background-color: white;
 }
@@ -282,10 +349,39 @@ button:hover .dropdown-bttn {
   opacity: 1;
   visibility: visible;
 }
+.dropdown-bttn p {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  color: grey;
+  text-align: left;
+}
+.country-box{
+  width: 180px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: yellow;
+  /* display: flex; */
+  margin-top: 10px;
+  align-items: center;
+}
+.dropdown-bttn h4{
+  font-family: Poppins, sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 32px;
+color: rgb(32, 32, 70);
+}
+.country-box img{
+  /* margin-left: 10px;
+  margin-top: 45px; */
+  width: 60px;
+}
 
 /* smarter way section */
 .smarter {
-  background-image: url(/MULTIMEDIA/Backgrounded7fa1f5-08f5-45.png) ;
+  background-image: url(/MULTIMEDIA/Backgrounded7fa1f5-08f5-45.png);
   height: 110vh;
   padding-top: 30px;
   position: relative;
@@ -1049,8 +1145,8 @@ footer {
 }
 
 @media (max-width: 900px) {
-  header{
-    padding:15px 0;
+  header {
+    padding: 15px 0;
     background-attachment: scroll;
   }
   /* Hide desktop links */
@@ -1071,7 +1167,7 @@ footer {
     justify-content: space-between;
     width: 92%;
   }
- 
+
   nav img {
     width: 100px;
     margin-bottom: 30px;
@@ -1081,33 +1177,17 @@ footer {
   }
   .list-icon {
     display: block;
-    font-size: 1.3rem ;
+    font-size: 1.3rem;
   }
-  .nigeria{
-     background-color: rgb(217, 215, 215);
+  .nigeria {
+    background-color: rgb(217, 215, 215);
   }
-  .nigeria img{
+  .nigeria img {
     /* background-color: rgb(216, 21, 21); */
     display: block;
   }
- /* .smarter-txt h1{
-  font-size: 80px;
-  width: 700px;
-  line-height: 90px;
- }
-  .smarter2-img img{
-    width: 250px;
-    height: 400px;
-    bottom: 0;
-    right: 5%;
-  
-  }
-  .smarter{
-    height: 80vh;
-  } */
 }
 @media (max-width: 768px) {
-
   .smarter {
     height: auto;
     padding-top: 120px;
@@ -1139,9 +1219,8 @@ footer {
     margin: auto;
     margin-top: 20px;
     text-align: center;
-
   }
-  .smarter-img{
+  .smarter-img {
     width: 250px;
     margin: auto;
     display: flex;
@@ -1153,7 +1232,7 @@ footer {
     margin-top: 25px;
   }
 
-  .cbn-ndic{
+  .cbn-ndic {
     gap: 10px;
     width: 250px;
     margin: auto;
@@ -1162,12 +1241,12 @@ footer {
     text-align: center;
     grid-template-columns: auto;
   }
-  .cbn-ndic p{
+  .cbn-ndic p {
     font-size: 12px;
     line-height: 10px;
     width: 80px;
   }
-  .cbn-ndic img{
+  .cbn-ndic img {
     /* width: 40px; */
     height: 30px;
   }
@@ -1191,7 +1270,7 @@ footer {
   .smarter2-img {
     width: 100%;
   }
-  .review{
+  .review {
     display: none;
   }
   .built {
@@ -1262,11 +1341,9 @@ footer {
 
   .built-img {
     width: 100%;
-
   }
 
-/* another section */
-
+  /* another section */
 
   .stop-paying {
     height: auto;
@@ -1304,7 +1381,6 @@ footer {
     width: 400px;
     height: 70px;
     margin: auto;
-    
   }
 
   .blue-box {
@@ -1330,8 +1406,8 @@ footer {
 
   .stop-img {
     width: 100%;
-  } 
-/* another section */
+  }
+  /* another section */
   .earn-upto {
     height: auto;
     /* padding-bottom: 50px; */
@@ -1462,8 +1538,6 @@ footer {
     padding: 25px 10px;
   }
 
-
-
   .debit-card {
     height: auto;
     padding-bottom: 50px;
@@ -1477,14 +1551,12 @@ footer {
     width: 92%;
   }
 
-
-
   .cardd-txt h1 {
     font-size: 30px;
     line-height: 40px;
     width: 100%;
     margin-top: -120px;
-   text-align: center;
+    text-align: center;
   }
 
   .cardd-txt p {
@@ -1524,8 +1596,8 @@ footer {
 
   .card-img {
     width: 100%;
-  } 
-  .cashback{
+  }
+  .cashback {
     height: auto;
     padding-bottom: 50px;
     background-attachment: scroll;
@@ -1538,14 +1610,12 @@ footer {
     width: 92%;
   }
 
-
-
   .cashback-txt h1 {
     font-size: 30px;
     line-height: 40px;
     width: 100%;
     margin-top: -120px;
-   text-align: center;
+    text-align: center;
   }
 
   .cashback-txt p {
@@ -1585,7 +1655,7 @@ footer {
 
   .cashback-img {
     width: 100%;
-  } 
+  }
 
   /* another section */
   .life {
@@ -1654,53 +1724,53 @@ footer {
   }
   /* another section */
 
-  .safe-place{
-     height: auto;
+  .safe-place {
+    height: auto;
     padding-bottom: 50px;
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
   }
-  .safe-place h1{
+  .safe-place h1 {
     font-size: 28px;
     line-height: 38px;
-   font-size: 28px;
+    font-size: 28px;
     line-height: 38px;
     width: 100%;
     text-align: center;
   }
-  .safe-cbn-ndic{
+  .safe-cbn-ndic {
     width: 220px;
     margin: auto;
     margin-top: 10px;
     gap: 5px;
   }
-  .safe-cbn p{
+  .safe-cbn p {
     font-size: 10px;
     width: 100%;
   }
-  .safe-ndic p{
+  .safe-ndic p {
     font-size: 10px;
     width: 70px;
   }
-  .safe-cbn img{
+  .safe-cbn img {
     width: 30px;
     height: 35px;
   }
-  .safe-ndic img{
+  .safe-ndic img {
     width: 60px;
     height: 30px;
   }
-  .safe-box{
+  .safe-box {
     display: grid;
     border: none;
   }
-  .boxx{
+  .boxx {
     border: none;
     width: 80%;
-    margin:-60px auto;
+    margin: -60px auto;
   }
-  .boxx h4{
+  .boxx h4 {
     line-height: 38px;
     width: 100%;
     text-align: center;
@@ -1709,65 +1779,64 @@ footer {
   }
 
   /* another section */
-  .loved{
+  .loved {
     height: 60vh;
   }
-  .loved h1{
+  .loved h1 {
     font-size: 20px;
     width: 100%;
     text-align: center;
     padding-top: -40px;
     margin-top: -80px;
   }
-  .loved p{
+  .loved p {
     font-size: 11px;
     line-height: 13px;
     width: 100%;
     text-align: center;
   }
-  .boxx p{
-   font-size: 11px;
+  .boxx p {
+    font-size: 11px;
     line-height: 10px;
     text-align: center;
     width: 100%;
     margin: auto;
   }
-  .bxxxxr{
+  .bxxxxr {
     display: none;
   }
-  .bxxxx p{
+  .bxxxx p {
     width: 180px;
     text-align: left;
   }
-  .bxxxx{
-
+  .bxxxx {
     width: 250px;
     height: 450px;
     border-radius: 15px;
     margin: 20px auto;
   }
-  .black-app{
+  .black-app {
     gap: 10px;
     justify-content: center;
     margin: auto;
     width: 100%;
   }
-  .black-app img{
+  .black-app img {
     width: 110px;
     margin-top: -150px;
     z-index: 100;
   }
-  .download{
+  .download {
     height: 19vh;
   }
-  .download-txt{
+  .download-txt {
     display: none;
   }
-  .download-all img{
+  .download-all img {
     width: 300px;
     margin: auto;
   }
-  .million{
+  .million {
     margin: auto;
     width: 100%;
     height: 100px;
@@ -1775,70 +1844,65 @@ footer {
     z-index: 2;
     position: absolute;
   }
-  .million-all h1{
+  .million-all h1 {
     width: 100%;
     margin: auto;
     font-size: 10px;
   }
-  .million-img img{
+  .million-img img {
     width: 60px;
   }
-  footer{
+  footer {
     position: absolute;
     width: 100%;
     margin-top: 80px;
     margin: auto;
     height: 160vh;
   }
-  .footer-all{
+  .footer-all {
     display: block;
   }
-  .footer-logo{
+  .footer-logo {
     display: grid;
   }
-  .footer-box{
+  .footer-box {
     border-top: 1px solid;
   }
-  .footer-box h3{
+  .footer-box h3 {
     margin-top: 40px;
   }
-  .footer-box{
+  .footer-box {
     width: 100%;
     border-top: 2px solid #262626;
   }
-  .all-rights{
+  .all-rights {
     border-top: 2px solid #262626;
     width: 100%;
   }
-  .all-rights p{
+  .all-rights p {
     margin-top: 20px;
   }
-  .small-logoo{
+  .small-logoo {
     margin-top: 20px;
   }
 }
 
-
-
-
-
 @media (max-width: 850px) {
-   .login-bttn button {
+  .login-bttn button {
     display: none;
   }
-  .loved-boxes{
+  .loved-boxes {
     width: 80%;
     margin: auto;
   }
 }
 @media (max-width: 600px) {
-  
   nav img {
     width: 85px;
   }
 }
 /* @media (max-width: 90px) (min-width:769) { */
-  /* header{
+/* header{
     width: 100%;
     margin: auto;
   }  

@@ -1,0 +1,274 @@
+self.__BUILD_MANIFEST = {
+  "/": [
+    "static/chunks/0wdjbu~tgo~.1.js"
+  ],
+  "/404": [
+    "static/chunks/0488dsoj7-eza.js"
+  ],
+  "/_error": [
+    "static/chunks/0mzhfq1~ae6k-.js"
+  ],
+  "/bangladesh": [
+    "static/chunks/15s1r9xrjpau2.js"
+  ],
+  "/bd/about": [
+    "static/chunks/03hoi1syi_5td.js"
+  ],
+  "/bd/index": [
+    "static/chunks/06llo.0l2_3l-.js"
+  ],
+  "/blog/details": [
+    "static/chunks/16-ancu9r6bn1.js"
+  ],
+  "/blog/home": [
+    "static/chunks/17b0bfjnjse2i.js"
+  ],
+  "/business/account": [
+    "static/chunks/06tkan~moww4y.js"
+  ],
+  "/business/management": [
+    "static/chunks/0v0nr95s984y8.js"
+  ],
+  "/business/palmPay": [
+    "static/chunks/11-_aee0i00h~.js"
+  ],
+  "/business/payWithTransfer": [
+    "static/chunks/0yyq5setdgdap.js"
+  ],
+  "/business/payin": [
+    "static/chunks/09sa~pqv0fzzt.js"
+  ],
+  "/business/payout": [
+    "static/chunks/16oniofb~m3jn.js"
+  ],
+  "/business/pos": [
+    "static/chunks/0eyer9p42gg7l.js"
+  ],
+  "/business/pricing": [
+    "static/chunks/00a10.x22qf5r.js"
+  ],
+  "/company/about": [
+    "static/chunks/0.ia3rc747lfl.js"
+  ],
+  "/company/contact": [
+    "static/chunks/08uv440xlfvjm.js"
+  ],
+  "/company/productDownload": [
+    "static/chunks/0694wq-owcu.k.js"
+  ],
+  "/complaints": [
+    "static/chunks/0tzuo1a5eki38.js"
+  ],
+  "/gh/buyAndShop": [
+    "static/chunks/00znppx~sbgmy.js"
+  ],
+  "/gh/complaints": [
+    "static/chunks/0t8w-p.qf3i8d.js"
+  ],
+  "/gh/index": [
+    "static/chunks/0b4287yd1m8zn.js"
+  ],
+  "/gh/management": [
+    "static/chunks/10z0quwntq2-v.js"
+  ],
+  "/gh/payin": [
+    "static/chunks/0691pkov_glea.js"
+  ],
+  "/gh/payout": [
+    "static/chunks/12akneu1mq9ly.js"
+  ],
+  "/gh/pos": [
+    "static/chunks/0p5qfakp7ffqh.js"
+  ],
+  "/gh/pricing": [
+    "static/chunks/0itofj_wqx65t.js"
+  ],
+  "/gh/termsAndConditions": [
+    "static/chunks/0jjeo0q9whd18.js"
+  ],
+  "/ghana": [
+    "static/chunks/0n89ywh7.x-df.js"
+  ],
+  "/global/index": [
+    "static/chunks/0l.7zaed9ofvb.js"
+  ],
+  "/help/faq": [
+    "static/chunks/03ro7k~jpg9~3.js"
+  ],
+  "/impact": [
+    "static/chunks/0ike6e736alik.js"
+  ],
+  "/inquiry": [
+    "static/chunks/07ki8k9a2ag~3.js"
+  ],
+  "/legal/loanPrivacyPolicy": [
+    "static/chunks/0_vb8vpcnkyw..js"
+  ],
+  "/legal/privacyPolicy": [
+    "static/chunks/0q_uapc4y9wra.js"
+  ],
+  "/legal/termsAndConditions": [
+    "static/chunks/13e~l9ryg_9_t.js"
+  ],
+  "/ng/index": [
+    "static/chunks/0pn~wwmf-4gpu.js"
+  ],
+  "/nigeria": [
+    "static/chunks/14_ossom6296f.js"
+  ],
+  "/pakistan": [
+    "static/chunks/15nje~p.j2w26.js"
+  ],
+  "/personal/billPayment": [
+    "static/chunks/0q1azmk.u50ms.js"
+  ],
+  "/personal/buyAndShop": [
+    "static/chunks/0vdho1yz~cftb.js"
+  ],
+  "/personal/palmPayApp": [
+    "static/chunks/07iial~dat.sj.js"
+  ],
+  "/personal/sendMoney": [
+    "static/chunks/0.g4z-q.y3lge.js"
+  ],
+  "/ph/about": [
+    "static/chunks/0l.3drjby.vrl.js"
+  ],
+  "/ph/index": [
+    "static/chunks/0ag1sq9uqo-yu.js"
+  ],
+  "/philippines": [
+    "static/chunks/057s4gs10fy3u.js"
+  ],
+  "/philippines/about": [
+    "static/chunks/03gj8bq1y3h~8.js"
+  ],
+  "/pk/about": [
+    "static/chunks/0.3olaz01_g8z.js"
+  ],
+  "/pk/index": [
+    "static/chunks/0tssnvkjcu2ff.js"
+  ],
+  "/press/details": [
+    "static/chunks/0bgqkxoeomgw_.js"
+  ],
+  "/press/home": [
+    "static/chunks/0xv1hgrstnbz1.js"
+  ],
+  "/press/list": [
+    "static/chunks/0ndd9bsro35r4.js"
+  ],
+  "/press/mediaList": [
+    "static/chunks/02~utn~j0lo36.js"
+  ],
+  "/tanzania": [
+    "static/chunks/13k-fb55.8opo.js"
+  ],
+  "/tz-new/about": [
+    "static/chunks/0auiezjipv.t2.js"
+  ],
+  "/tz-new/index": [
+    "static/chunks/0-d70l~ve2_t~.js"
+  ],
+  "/tz/buyAndShop": [
+    "static/chunks/0nas3r~9l1m3z.js"
+  ],
+  "/tz/complaints": [
+    "static/chunks/132l7l99efu_e.js"
+  ],
+  "/tz/index": [
+    "static/chunks/0dvht7p~z8.ic.js"
+  ],
+  "/tz/pos": [
+    "static/chunks/0rwecd5pdvh3w.js"
+  ],
+  "/tz/pricing": [
+    "static/chunks/0f4n.l4tczek9.js"
+  ],
+  "/tz/termsAndConditions": [
+    "static/chunks/02x6oc.lh3snq.js"
+  ],
+  "/ug/about": [
+    "static/chunks/0.3cg9ind0jcs.js"
+  ],
+  "/ug/index": [
+    "static/chunks/051x91tgy3z36.js"
+  ],
+  "/uganda": [
+    "static/chunks/0-tf-8x6z46bx.js"
+  ],
+  "__rewrites": {
+    "afterFiles": [],
+    "beforeFiles": [],
+    "fallback": []
+  },
+  "sortedPages": [
+    "/",
+    "/404",
+    "/_app",
+    "/_error",
+    "/bangladesh",
+    "/bd/about",
+    "/bd/index",
+    "/blog/details",
+    "/blog/home",
+    "/business/account",
+    "/business/management",
+    "/business/palmPay",
+    "/business/payWithTransfer",
+    "/business/payin",
+    "/business/payout",
+    "/business/pos",
+    "/business/pricing",
+    "/company/about",
+    "/company/contact",
+    "/company/productDownload",
+    "/complaints",
+    "/gh/buyAndShop",
+    "/gh/complaints",
+    "/gh/index",
+    "/gh/management",
+    "/gh/payin",
+    "/gh/payout",
+    "/gh/pos",
+    "/gh/pricing",
+    "/gh/termsAndConditions",
+    "/ghana",
+    "/global/index",
+    "/help/faq",
+    "/impact",
+    "/inquiry",
+    "/legal/loanPrivacyPolicy",
+    "/legal/privacyPolicy",
+    "/legal/termsAndConditions",
+    "/ng/index",
+    "/nigeria",
+    "/pakistan",
+    "/personal/billPayment",
+    "/personal/buyAndShop",
+    "/personal/palmPayApp",
+    "/personal/sendMoney",
+    "/ph/about",
+    "/ph/index",
+    "/philippines",
+    "/philippines/about",
+    "/pk/about",
+    "/pk/index",
+    "/press/details",
+    "/press/home",
+    "/press/list",
+    "/press/mediaList",
+    "/tanzania",
+    "/tz/buyAndShop",
+    "/tz/complaints",
+    "/tz/index",
+    "/tz/pos",
+    "/tz/pricing",
+    "/tz/termsAndConditions",
+    "/tz-new/about",
+    "/tz-new/index",
+    "/ug/about",
+    "/ug/index",
+    "/uganda"
+  ]
+};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
