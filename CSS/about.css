@@ -117,7 +117,8 @@ button p {
   line-height: 50px;
   color: rgb(24, 25, 31);
 }
-.company-drop:hover .dropdown-company {
+.company-drop:hover .dropdown-company,
+.company-drop:focus-within .dropdown-company {
   opacity: 1;
   visibility: visible;
   backdrop-filter: blur(20px);
@@ -134,7 +135,8 @@ button p {
   background-color: white;
   border-top: 2px black;
 }
-.personal-drop:hover .dropdown-personal {
+.personal-drop:hover .dropdown-personal,
+.personal-drop:focus-within .dropdown-personal {
   opacity: 1;
   visibility: visible;
 }
@@ -266,7 +268,8 @@ button p {
   height: 370px;
   background-color: white;
 }
-.business-drop:hover .dropdown-business {
+.business-drop:hover .dropdown-business,
+.business-drop:focus-within .dropdown-business {
   opacity: 1;
   visibility: visible;
 }
@@ -316,7 +319,8 @@ button p {
   line-height: 30px;
   background-color: white;
 }
-.newsroom-drop:hover .dropdown-newsroom {
+.newsroom-drop:hover .dropdown-newsroom,
+.newsroom-drop:focus-within .dropdown-newsroom {
   opacity: 1;
   visibility: visible;
 }
@@ -996,8 +1000,16 @@ footer {
     gap: 10px;
   }
   .list-icon {
-    display: block;
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background-color: #6f06c0;
+    color: white;
     font-size: 1.3rem;
+    cursor: pointer;
   }
   .nigeria {
     background-color: rgb(217, 215, 215);
@@ -1005,6 +1017,126 @@ footer {
   .nigeria img {
     /* background-color: rgb(216, 21, 21); */
     display: block;
+  }
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: 0.25s ease;
+    background-color: white;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 92%;
+    margin: auto;
+    padding: 18px 0 24px;
+  }
+
+  .links li {
+    width: 100%;
+    line-height: normal;
+    border-bottom: 1px solid rgba(73, 1, 129, 0.15);
+  }
+
+  .links li:last-child {
+    border-bottom: none;
+  }
+
+  .company-drop,
+  .personal-drop,
+  .business-drop {
+    height: auto;
+  }
+
+  .company-drop h6,
+  .personal-drop h6,
+  .business-drop h6,
+  .imp-act h6,
+  .newsroom-drop h6 {
+    line-height: normal;
+    padding: 16px 0;
+    font-size: 16px;
+  }
+
+  nav:has(.list-icon:focus) .nav-links,
+  nav:has(.nav-links:focus-within) .nav-links {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-company,
+  .dropdown-personal,
+  .dropdown-business,
+  .dropdown-newsroom {
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: auto;
+    padding: 0 0 14px 18px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: white;
+    backdrop-filter: none;
+  }
+
+  .company-drop:focus-within .dropdown-company,
+  .personal-drop:focus-within .dropdown-personal,
+  .business-drop:focus-within .dropdown-business,
+  .newsroom-drop:focus-within .dropdown-newsroom {
+    display: block;
+  }
+
+  .dropdown-company p,
+  .dropdown-newsroom p {
+    line-height: 32px;
+    padding-left: 0;
+  }
+
+  .fir-st,
+  .sec-ond {
+    width: 100%;
+    display: grid;
+    gap: 14px;
+    padding-top: 0;
+  }
+
+  .for-you h4,
+  .sec-ond h1,
+  .palm-1 h3,
+  .sec-grid h2 {
+    font-size: 15px;
+  }
+
+  .for-you p,
+  .palm-1 h2,
+  .sec-ond p,
+  .sec-grid p {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .palm-grid,
+  .sec-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .first-img {
+    display: none;
   }
 }
 @media (max-width:475px) {
@@ -1422,4 +1554,77 @@ footer {
   header{
     /* display: none; */
   }
+}
+
+/* Footer responsive fix */
+@media (max-width: 1119px) {
+  footer {
+    position: static;
+    height: auto;
+    margin-top: 0;
+    padding: 40px 0;
+  }
+
+  .footer-all {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: 34px;
+    width: 90%;
+  }
+
+  .footer-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 769px) {
+  footer {
+    position: static;
+    height: auto;
+    margin-top: 0;
+    padding: 36px 0;
+  }
+
+  .footer-all {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-top: 0;
+  }
+
+  .footer-box {
+    width: 100%;
+    padding: 22px 0;
+    border-top: 1px solid #262626;
+  }
+
+  .footer-box:first-child {
+    border-top: 0;
+  }
+
+  .footer-box h3 {
+    margin-top: 0;
+  }
+
+  .all-rights {
+    display: grid;
+    gap: 14px;
+    width: 90%;
+    padding-top: 22px;
+    border-top: 1px solid #262626;
+  }
+
+  .all-rights p {
+    margin-top: 0;
+  }
+
+  .last-part p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+
+/* Keep login visible at every screen width */
+.login-bttn,
+.login-bttn button {
+  display: block !important;
 }

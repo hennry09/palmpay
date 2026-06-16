@@ -181,7 +181,8 @@ button p {
   line-height: 50px;
   color: rgb(24, 25, 31);
 }
-.company-drop:hover .dropdown-company {
+.company-drop:hover .dropdown-company,
+.company-drop:focus-within .dropdown-company {
   opacity: 1;
   visibility: visible;
   backdrop-filter: blur(20px);
@@ -200,7 +201,8 @@ button p {
   background-color: white;
   border-top: 2px black;
 }
-.personal-drop:hover .dropdown-personal {
+.personal-drop:hover .dropdown-personal,
+.personal-drop:focus-within .dropdown-personal {
   opacity: 1;
   visibility: visible;
 }
@@ -268,7 +270,8 @@ button p {
   height: 370px;
   background-color: white;
 }
-.business-drop:hover .dropdown-business {
+.business-drop:hover .dropdown-business,
+.business-drop:focus-within .dropdown-business {
   opacity: 1;
   visibility: visible;
 }
@@ -318,7 +321,8 @@ button p {
   line-height: 30px;
   background-color: white;
 }
-.newsroom-drop:hover .dropdown-newsroom {
+.newsroom-drop:hover .dropdown-newsroom,
+.newsroom-drop:focus-within .dropdown-newsroom {
   opacity: 1;
   visibility: visible;
 }
@@ -1138,6 +1142,221 @@ footer {
   margin: auto;
   margin-top: 30px;
 }
+@media (max-width: 1119px) and (min-width: 769px) {
+  nav {
+    width: 94%;
+    gap: 16px;
+  }
+  .earn-txt h1{
+    margin-right: 10px;
+    padding-right: -100px;
+  }
+  .bxxxx p{
+    font-size: 11px;
+  }
+  .million-img{
+    padding-top: -20px;
+  }
+  .links {
+    gap: 26px;
+  }
+  .cbn-ndic{
+    display: none;
+  }
+  .download-txt{
+    display: none;
+  }
+  .links li,
+  .company-drop h6,
+  .personal-drop h6,
+  .business-drop h6,
+  .imp-act h6,
+  .newsroom-drop h6 {
+    font-size: 14px;
+  }
+
+  nav img {
+    width: 105px;
+  }
+
+  .nav-bttn {
+    gap: 18px;
+  }
+
+  .smarter {
+    height: 95vh;
+  }
+
+  .smarter-txt {
+    margin-top: 120px;
+  }
+
+  .smarter-txt h1 {
+    font-size: 48px;
+    line-height: 56px;
+    width: 420px;
+  }
+
+  .smarter-txt p {
+    font-size: 20px;
+    line-height: 28px;
+    width: 380px;
+  }
+
+  .smarter2-img img {
+    height: 520px;
+    right: 3%;
+    bottom: -8%;
+  }
+
+  .built,
+  .stop-paying,
+  .earn-upto,
+  .debit-card,
+  .credit,
+  .cashback,
+  .life {
+    height: 112vh;
+  }
+
+  .built-txt h1 {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .built-txt p {
+    font-size: 22px;
+  }
+
+  .b-box {
+    width: 360px;
+    height: 135px;
+  }
+
+  .built-img img {
+    height: 520px;
+    right: 3%;
+  }
+
+  .stop-img img,
+  .card-img img,
+  .cashback-img img {
+    right: 3%;
+  }
+
+  .stop-img img,
+  .earn-img img,
+  .card-img img,
+  .credit-img img,
+  .cashback-img img,
+  .life-img img {
+    width: 44%;
+    height: 500px;
+  }
+
+  .stop-txt h1,
+  .earn-txt h1,
+  .card-txt h1,
+  .credit-txt h1,
+  .cashback-txt h1,
+  .life-txt h1 {
+    font-size: 42px;
+    line-height: 52px;
+    width: 420px;
+  }
+
+  .p-class p,
+  .earn-p p,
+  .cardd-txt p,
+  .credit-p p,
+  .cashback-txt p,
+  .life-p p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .yellow-box,
+  .blue-box {
+    width: 430px;
+  }
+
+  .earn-txt,
+  .credit-txt,
+  .life-txt {
+    right: 4%;
+  }
+
+  .safe-place {
+    height: auto;
+    padding-bottom: 70px;
+  }
+
+  .safe-box {
+    width: 90%;
+  }
+
+  .boxx {
+    width: 32%;
+  }
+
+  .boxx p {
+    width: 90%;
+  }
+
+  .loved-boxes,
+  .download-all {
+    width: 86%;
+  }
+
+  .bxxxx,
+  .bxxxxr {
+    width: 50%;
+  }
+
+  .bxxxx p,
+  .bxxxxr p {
+    width: 82%;
+  }
+
+  .download {
+    height: 95vh;
+  }
+
+  .download-all {
+    gap: 50px;
+    align-items: center;
+  }
+
+  .download-all img {
+    width: 390px;
+  }
+
+  .download-txt h1 {
+    font-size: 38px;
+    width: 390px;
+  }
+
+  .dowload-h1 {
+    margin-top: 90px;
+  }
+
+  .million h1 {
+    font-size: 26px;
+  }
+
+  .million-img img {
+    width: 135px;
+  }
+
+  footer {
+    height: auto;
+    padding-bottom: 45px;
+  }
+
+  .footer-all {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 1060px) {
   .country-bttn button {
     width: 100px;
@@ -1150,7 +1369,124 @@ footer {
     background-attachment: scroll;
   }
   /* Hide desktop links */
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: 0.25s ease;
+    background-color: white;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  }
+
   .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 92%;
+    margin: auto;
+    padding: 18px 0 24px;
+  }
+
+  .links li {
+    width: 100%;
+    line-height: normal;
+    border-bottom: 1px solid rgba(73, 1, 129, 0.15);
+  }
+
+  .links li:last-child {
+    border-bottom: none;
+  }
+
+  .company-drop,
+  .personal-drop,
+  .business-drop {
+    height: auto;
+  }
+
+  .company-drop h6,
+  .personal-drop h6,
+  .business-drop h6,
+  .imp-act h6,
+  .newsroom-drop h6 {
+    line-height: normal;
+    padding: 16px 0;
+    font-size: 16px;
+  }
+
+  nav:has(.list-icon:focus) .nav-links,
+  nav:has(.nav-links:focus-within) .nav-links {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-company,
+  .dropdown-personal,
+  .dropdown-business,
+  .dropdown-newsroom {
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: auto;
+    padding: 0 0 14px 18px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: white;
+    backdrop-filter: none;
+  }
+
+  .company-drop:focus-within .dropdown-company,
+  .personal-drop:focus-within .dropdown-personal,
+  .business-drop:focus-within .dropdown-business,
+  .newsroom-drop:focus-within .dropdown-newsroom {
+    display: block;
+  }
+
+  .dropdown-company p,
+  .dropdown-newsroom p {
+    line-height: 32px;
+    padding-left: 0;
+  }
+
+  .fir-st,
+  .sec-ond {
+    width: 100%;
+    display: grid;
+    gap: 14px;
+    padding-top: 0;
+  }
+
+  .for-you h4,
+  .sec-ond h1,
+  .palm-1 h3,
+  .sec-grid h2 {
+    font-size: 15px;
+  }
+
+  .for-you p,
+  .palm-1 h2,
+  .sec-ond p,
+  .sec-grid p {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .palm-grid,
+  .sec-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .first-img {
     display: none;
   }
 
@@ -1176,8 +1512,16 @@ footer {
     gap: 10px;
   }
   .list-icon {
-    display: block;
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background-color: #6f06c0;
+    color: white;
     font-size: 1.3rem;
+    cursor: pointer;
   }
   .nigeria {
     background-color: rgb(217, 215, 215);
@@ -1199,7 +1543,9 @@ footer {
     width: 90%;
     flex-direction: column;
   }
-
+  header{
+    height: 10vh;
+  }
   .smarter-txt {
     margin-top: 5px;
   }
@@ -1857,7 +2203,7 @@ footer {
     width: 100%;
     margin-top: 80px;
     margin: auto;
-    height: 160vh;
+    height: 260vh;
   }
   .footer-all {
     display: block;
@@ -1976,3 +2322,65 @@ footer {
     width: 300px;
   }
 } */
+
+/* Footer responsive fix */
+@media (max-width: 1119px) {
+  footer {
+    position: static;
+    height: auto;
+    margin-top: 0;
+    padding: 40px 0;
+  }
+
+  .footer-all {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: 34px;
+    width: 90%;
+  }
+
+  .footer-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-all {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-top: 0;
+  }
+
+  .footer-box {
+    width: 100%;
+    padding: 22px 0;
+    border-top: 1px solid #262626;
+  }
+
+  .footer-box:first-child {
+    border-top: 0;
+  }
+
+  .footer-box h3 {
+    margin-top: 0;
+  }
+
+  .all-rights {
+    display: grid;
+    gap: 14px;
+    width: 90%;
+    padding-top: 22px;
+    border-top: 1px solid #262626;
+  }
+
+  .last-part p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+
+/* Keep login visible at every screen width */
+.login-bttn,
+.login-bttn button {
+  display: block !important;
+}
