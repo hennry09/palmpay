@@ -10,7 +10,7 @@
 }
 section {
   width: 55%;
-  background-image: url(/MULTIMEDIA/bg158dc88aa-0927-4f.png);
+  background-image: url(../MULTIMEDIA/bg158dc88aa-0927-4f.png);
   height: 582px;
   transition: all 1s ease-in-out;
 }
@@ -23,7 +23,7 @@ section {
   backdrop-filter: blur(40px);
 }
 section:hover {
-  background-image: url(/MULTIMEDIA/bg28ca038bc-eeee-49.png);
+  background-image: url(../MULTIMEDIA/bg28ca038bc-eeee-49.png);
   /* transition: all 1s xvease-in-out; */
 }
 aside {

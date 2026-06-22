@@ -385,7 +385,7 @@ color: rgb(32, 32, 70);
 
 /* smarter way section */
 .smarter {
-  background-image: url(/MULTIMEDIA/Backgrounded7fa1f5-08f5-45.png);
+  background-image: url(../MULTIMEDIA/Backgrounded7fa1f5-08f5-45.png);
   height: 110vh;
   padding-top: 30px;
   position: relative;
@@ -489,7 +489,7 @@ color: rgb(32, 32, 70);
 /* built section */
 
 .built {
-  background-image: url(/MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
+  background-image: url(../MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
   height: 134.5vh;
   position: relative;
 }
@@ -618,7 +618,7 @@ color: rgb(32, 32, 70);
 }
 /* earn up to 20%  */
 .earn-upto {
-  background-image: url(/MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
+  background-image: url(../MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
   height: 130vh;
   position: relative;
 }
@@ -700,7 +700,7 @@ color: rgb(32, 32, 70);
 /* get credit section */
 .credit {
   height: 130vh;
-  background-image: url(/MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
+  background-image: url(../MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
   position: relative;
 }
 .all-credit {
@@ -780,7 +780,7 @@ color: rgb(32, 32, 70);
 }
 /* life happens section */
 .life {
-  background-image: url(/MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
+  background-image: url(../MULTIMEDIA/topBannerBGa32288f7-2d2c-48\ \(1\).png);
   height: 130vh;
   position: relative;
 }
